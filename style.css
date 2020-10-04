@@ -1,26 +1,3 @@
-$crossword-item-size: 50px;
-$crossword-column-count: 13;
-$crossword-row-count: 13;
-
-$color-valid-item: #9AFF67;
-$color-focus-item: #FFFF74;
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-flow: column;
-  margin: 0;
-  overflow: hidden;
-  font-family: "Lato", sans-serif;
-}
 
 .crossword-board-container {
 	position: relative;
