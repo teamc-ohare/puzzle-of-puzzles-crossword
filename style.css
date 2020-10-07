@@ -13,7 +13,7 @@
   display: grid;
   grid-template: repeat(5, 15%)/repeat(5, 15%);
   list-style-type: none;
-  padding: 10px 10px 10px 40px;
+  padding: 0;
   margin: 45px;
 }
 
