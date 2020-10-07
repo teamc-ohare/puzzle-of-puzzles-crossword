@@ -11,10 +11,10 @@
   width: 500px;
   height: 500px;
   display: grid;
-  grid-template: repeat(5, 25%)/repeat(5, 25%);
+  grid-template: repeat(5, 15%)/repeat(5, 15%);
   list-style-type: none;
-  padding: 0;
-  margin: 20 auto;
+  padding: 10px 10px 10px 40px;
+  margin: 45px;
 }
 
 .crossword-board__item {
