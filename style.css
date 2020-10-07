@@ -14,7 +14,7 @@
   grid-template: repeat(5, 15%)/repeat(5, 15%);
   list-style-type: none;
   padding: 0;
-  margin: 45px;
+  margin: 45 auto;
 }
 
 .crossword-board__item {
