@@ -8,7 +8,7 @@
   z-index: 1;
   background: transparent;
   border: 1px solid #000000;
-  width: 6500px;
+  width: 650px;
   height: 650px;
   display: grid;
   grid-template: repeat(5, 15%)/repeat(5, 15%);
