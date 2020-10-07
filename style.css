@@ -11,7 +11,7 @@
   width: 500px;
   height: 500px;
   display: grid;
-  grid-template: repeat(5)/repeat(5);
+  grid-template: repeat(5, 25%)/repeat(5, 25%);
   list-style-type: none;
   padding: 0;
   margin: 20 auto;
