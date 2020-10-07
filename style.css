@@ -659,8 +659,8 @@
 }
 
 [for="checkvaliditems"] {
-  padding: 10px 10px 10px 40px;
-  margin: 20px;
+  padding: 0;
+  margin: 0 auto;
   display: inline-block;
   background: #9AFF67;
   cursor: pointer;
