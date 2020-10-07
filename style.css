@@ -107,8 +107,8 @@
 .crossword-clues {
   position: absolute;
   top: 0;
-  left: 650px;
-  width: 650px;
+  left: 500px;
+  width: 5000px;
 }
 
 .crossword-clues__list {
