@@ -75,6 +75,7 @@
 }
 
 .crossword-board__item-label--8 {
+  grid-column: 1/5;
   grid-row: 5/2
 }
 
