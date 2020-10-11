@@ -4,7 +4,7 @@ section {
 
 /* About Container  */
 div {
-  width: 48%;
+  width: 150%;
   max-height: auto;
   float: left;
 }
@@ -12,7 +12,7 @@ div {
 /* Container for bio text */
 .about-contianer{
   height: 50%;
-  width: 48%;
+  width: 150%;
   margin: 0 1% 10px 1%;
   max-height: auto;
   min-height: 400px;
