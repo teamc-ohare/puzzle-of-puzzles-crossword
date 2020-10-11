@@ -74,6 +74,11 @@
   grid-row: 4/4;
 }
 
+.crossword-board__item-label--8 {
+  grid-column: 1/1;
+  grid-row: 5/2;
+}
+
 
 .crossword-board--labels {
   position: absolute;
