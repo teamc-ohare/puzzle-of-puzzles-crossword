@@ -9,8 +9,8 @@ header {
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 60px;
+  font-family: 'Architects Daughter';
+  font-size: 80px;
   text-align: center;
   margin-bottom: 0px;
  
@@ -27,7 +27,7 @@ h2 {
 body {
   background-color: rgb(151, 192, 250);
   color: rgb(225, 246, 255);
-  font-family: 'Indie Flower';
+  font-family: 'Architects Daughter';
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 nav li {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Architects Daughter';
   font-size: 20px;
   background-color: rgb(21, 218, 208);
   color: rgb(225, 246, 255);
