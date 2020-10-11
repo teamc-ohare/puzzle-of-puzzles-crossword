@@ -1,111 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" href="style.css">
+  <title>Puzzle of Puzzles</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+
 <body>
-<input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
-<label for="checkvaliditems">Check for valid squares</label>
+  <header>
+    <h1>Puzzle of Puzzles</h1>
+    <h2>A Multi-Level Crossword Puzzle Game</h2>
+  </header>
 
-<div class="crossword-board-container">
+  <section>
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li>How to Play</li>
+        </a>
+        <a href="html/game.html">
+          <li>Start Game</li>
+        </a>
+      </ul>
+    </nav>
 
-	<div class="crossword-board">
-		<!-- ROW 1 -->
-		<span class="crossword-board__item--blank" id="item1-1"></span>
-		<input id="item1-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[lL]{1}$" required="required" value="" />
-		<input id="item1-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[aA]{1}$" required="required" value="" />
-		<input id="item1-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[gG]{1}$" required="required" value="" />
-		<span class="crossword-board__item--blank" id="item1-5"></span>
-		<!-- ROW 1 -->
+    <main>
+      <h2>How to Play</h2>
+      <p>Welcome to Puzzle of Puzzles, a tier'd crossword puzzle game that's based around the O'Hare International Airport! When you click Start Game from the 
+	  game page, you'll be directed to choose a difficulty level. There are four difficulties to choose: Easy, Intermediate, Normal & Advanced--with a chance 
+	  to unlock a hidden crossword puzzle. Each level of difficulty contains five word puzzles. Once a level of difficulty is selected, you'll receive a random
+	  word puzzle from that tier. Each word puzzle completed will display an image, based upon the O'Hare International Airport object the puzzle is based upon.
+      When you've completed a word puzzle, you can either Continue or Exit. Continueing will generate a new word puzzle from the selected tier, Exiting will 
+      return you to the main page. If you complete all five puzzles of a selected difficulty, then you've completed the level, at which time you'll be asked to 
+	  proceed to the next level or exit the game. How to unlock the hidden puzzle won't be explained, but rest assure, if you're paying attention, you'll catch 
+	  the clue. In order to view the entire storyline of the game, and WIN the game, the hidden puzzle must be unlocked and completed. If you WIN the game, by
+	  completing the hidden word puzzle, you can opt-in at the end of the game to be included in the FEATURED list by entering your name and where you're from.
+	  
+      <h2>Tips for Gameplay</h2>
+      <ul>
+        <li>BLACK tiles cannot hold letters.</li>
+        <li>Unanswered/Incorrectly answered tiles remain WHITE.</li>
+        <li>Clicking into a WHITE tile, turns the tile YELLOW, opening the CURSOR.</li>
+		<li>Correctly answered tiles are GREEN.</li>
+		<li>Grid tiles convert all letters to UPPERCASE.</li>
+        <li>This is a THEMED puzzle, all Across & Down Lists and their Answers are based around the O'Hare International Airport, including Aviation of Things.</li>
+		<li>The challenge can be completed on personal devices, at lounges, inflight, at home, etc.</li>
+		<li>Remember, there is a chance to unlock a hidden puzzle, and be FEATURED, PAY ATTENTION FOR CLUES!</li>
+      </ul>
 
-		<!-- ROW 2 -->
-		<input id="item2-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[pP]{1}$" required="required" value="" />
-		<input id="item2-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[aA]{1}$" required="required" value="" />
-		<input id="item2-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[tT]{1}$" required="required" value="" />
-		<input id="item2-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
-		<input id="item2-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[oO]{1}$" required="required" value="" />
-		<!-- ROW 2 -->
+      <p id="last-p">When you're ready for the challenge, click the button below to start your difficulty.</p>
 
-		<!-- ROW 3 -->
-		<input id="item3-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[cC]{1}$" required="required" value="" />
-		<input id="item3-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[aA]{1}$" required="required" value="" />
-		<input id="item3-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[rR]{1}$" required="required" value="" />
-		<input id="item3-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[rR]{1}$" required="required" value="" />
-		<input id="item3-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[yY]{1}$" required="required" value="" />
-		<!-- ROW 3 -->
+      <a href="html/game.html"><button>Start Game</button></a>
+    </main>
+    <div id="bottom"></div>
+  </section>
 
-		<!-- ROW 4 -->
-		<input id="item4-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[jJ]{1}$" required="required" value="" />
-		<input id="item4-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[oO]{1}$" required="required" value="" />
-		<input id="item4-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[iI]{1}$" required="required" value="" />
-		<input id="item4-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[nN]{1}$" required="required" value="" />
-		<input id="item4-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[tT]{1}$" required="required" value="" />
-		<!-- ROW 4 -->
-
-		<!-- ROW 5 -->
-		<span class="crossword-board__item--blank" id="item5-1"></span>
-		<input id="item5-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[oO]{1}$" required="required" value="" />
-		<input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[pP]{1}$" required="required" value="" />
-		<input id="item5-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[pP]{1}$" required="required" value="" />
-		<span class="crossword-board__item--blank" id="item5-5"></span>
-		<!-- ROW 5 -->
-
-
-		<div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
-			<span id="across-1" class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
-			<span id="across-4" class="crossword-board__item-highlight crossword-board__item-highlight--across-4"></span>
-			<span id="across-6" class="crossword-board__item-highlight crossword-board__item-highlight--across-6"></span>
-			<span id="across-7" class="crossword-board__item-highlight crossword-board__item-highlight--across-7"></span>
-			<span id="across-8" class="crossword-board__item-highlight crossword-board__item-highlight--across-8"></span>
-		</div>
-
-		<div class="crossword-board crossword-board--highlight crossword-board--highlight-down">
-			<span id="down-1" class="crossword-board__item-highlight crossword-board__item-highlight--down-1"></span>
-			<span id="down-2" class="crossword-board__item-highlight crossword-board__item-highlight--down-2"></span>
-			<span id="down-3" class="crossword-board__item-highlight crossword-board__item-highlight--down-3"></span>
-			<span id="down-4" class="crossword-board__item-highlight crossword-board__item-highlight--down-4"></span>
-			<span id="down-5" class="crossword-board__item-highlight crossword-board__item-highlight--down-5"></span>
-		</div>
-
-		<div class="crossword-board crossword-board--labels">
-			<span id="label-1" class="crossword-board__item-label crossword-board__item-label--1"><span class="crossword-board__item-label-text">1</span></span>
-			<span id="label-2" class="crossword-board__item-label crossword-board__item-label--2"><span class="crossword-board__item-label-text">2</span></span>
-			<span id="label-3" class="crossword-board__item-label crossword-board__item-label--3"><span class="crossword-board__item-label-text">3</span></span>
-			<span id="label-4" class="crossword-board__item-label crossword-board__item-label--4"><span class="crossword-board__item-label-text">4</span></span>
-			<span id="label-5" class="crossword-board__item-label crossword-board__item-label--5"><span class="crossword-board__item-label-text">5</span></span>
-			<span id="label-6" class="crossword-board__item-label crossword-board__item-label--6"><span class="crossword-board__item-label-text">6</span></span>
-			<span id="label-7" class="crossword-board__item-label crossword-board__item-label--7"><span class="crossword-board__item-label-text">7</span></span>
-			<span id="label-8" class="crossword-board__item-label crossword-board__item-label--8"><span class="crossword-board__item-label-text">8</span></span>
-		</div>
-
-		<div class="crossword-clues">
-
-			<dl class="crossword-clues__list crossword-clues__list--across">
-				<dt class="crossword-clues__list-title">Across</dt>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">Jet (3)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-4" data-number="4">Outside (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-6" data-number="6">Luggage (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-7" data-number="7">Eat at (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-8" data-number="8">Language (3)</dd>
-			</dl>
-
-			<dl class="crossword-clues__list crossword-clues__list--down">
-				<dt class="crossword-clues__list-title">Down</dt>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-1" data-number="1">Airline (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-2" data-number="2">Going on (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-3" data-number="3">Female boots (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-4" data-number="4">Restruant (3)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-5" data-number="5">Aliens (3)</dd>
-			</dl>
-
-		</div>
-
-		<div class="crossword-complete">
-		well done, champ!
-		</div>
-
-	</div>
-
-</div>
 </body>
+
 </html>
