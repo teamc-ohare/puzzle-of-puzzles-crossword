@@ -1,0 +1,45 @@
+section {
+  min-width: 600px;
+}
+
+/* About Container  */
+div {
+  width: 48%;
+  max-height: auto;
+  float: left;
+}
+
+/* Container for bio text */
+.about-contianer{
+  height: 50%;
+  width: 48%;
+  margin: 0 1% 10px 1%;
+  max-height: auto;
+  min-height: 400px;
+  float: left;
+}
+
+/* About text */
+p {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+div h2 {
+  font-family: 'Architects Daughter';
+  margin-right: 15px;
+  float: left;
+}
+
+div a {
+  text-decoration-line: none;
+  font-size: 2em;
+  border-right: 10px;
+}
+
+a:hover li:hover {
+  color: navy;
+  border: 3px solid navy;
+  transition: .5s;
+}
