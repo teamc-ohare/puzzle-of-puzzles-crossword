@@ -74,7 +74,7 @@ nav a {
 }
 
 .selectedPage {
-  border-color: lightgreen;
-  color: lightgreen;
-  background-color: grey;
+  border-color: (255, 246, 255);
+  color: rgb(225, 246, 255);
+  background-color: rgb(151, 192, 250);
 }
