@@ -477,11 +477,13 @@
 }
 
 
-#item1-1:valid ~ #item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~ #item1-5:valid ~ 
+#item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~
 #item2-1:valid ~ #item2-2:valid ~ #item2-3:valid ~ #item2-4:valid ~ #item2-5:valid ~ 
-#item3-1:valid ~ #item3-3:valid ~ #item3-3:valid ~ #item3-4:valid ~ #item3-5:valid ~ 
+#item3-1:valid ~ #item3-2:valid ~ #item3-3:valid ~ #item3-4:valid ~ #item3-5:valid ~ 
 #item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~ #item4-5:valid ~ 
-#item5-1:valid ~ #item5-2:valid ~ #item5-3:valid ~ #item5-4:valid ~ #item5-5:valid ~ 
+#item5-2:valid ~ #item5-3:valid ~ #item5-4:valid ~
+
+
   
 
 .crossword-complete 
