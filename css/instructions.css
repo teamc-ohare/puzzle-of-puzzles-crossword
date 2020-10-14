@@ -51,8 +51,8 @@ a {
 }
 
 a:hover li:hover, button:hover{
-  color: navy;
-  border: 3px solid navy;
+  color: rgb(230,230,250);
+  border: 3px solid rgb(230,230,250);
   transition: .5s;
 }
 
