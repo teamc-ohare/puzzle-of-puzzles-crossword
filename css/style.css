@@ -29,6 +29,10 @@ body {
   color: rgb(225, 246, 255);
   font-family: 'Architects Daughter';
   margin: 0 auto;
+  
+  <marquee behavior="scroll" direction="down">
+  <img src="https://imagizer.imageshack.com/img924/9954/ZCXGht.png" width="52" height="76" />
+  </marquee>
 }
 
 section {
