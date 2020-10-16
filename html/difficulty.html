@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Puzzle of Puzzles</title>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
 	
-  <link rel="stylesheet" type="text/css" href="css/difficulty.css" />
-  <link rel="stylesheet" type="text/css" href="css/instructions.css" />
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+	
+</style>
 </head>
-
 <body>
-  <header>
-    <h1>Puzzle of Puzzles</h1>
-    <h2>A Multi-Level Crossword Puzzle Game</h2>
+<header>
+   <h1><center>Puzzle of Puzzles</center></h1>
+   <h2><center>A Multi-Level Crossword Puzzle Game</center></h2>
     
-    <h3>Select Your Difficulty</h3>
-  </header>
-
-  <section>
-    <nav>
-      <ul>
-        <a href="html/game.html">
-          <li>Easy</li>
-        </a>
-        <a href="">
-          <li>Intermediate</li>
-        </a>
-	  <a href="">
-          <li>Normal</li>
-        </a>
-	  <a href="">
-          <li>Advanced</li>
-        </a>
-      </ul>
-    </nav>
+   <h3><center>Select Your Difficulty</center></h3>
+</header>
+	
+<a href="../html/game.html"><button class="button button1">Easy</button></a>
+<button class="button button2">Intermediate</button>
+<button class="button button3">Normal</button>
+<button class="button button4">Advanced</button>
 
     <main>
       <h2>Tips for Gameplay</h2>
@@ -45,12 +85,14 @@
 	<li>Remember, there is a chance to unlock a hidden puzzle, and be FEATURED, PAY ATTENTION FOR CLUES!</li>
       </ul>
 
-      <p id="last-p">Click the button below to EXIT the game.</p>
+	    <p id="last-p"><center>Click the button below to EXIT the game.</center></p>
 
-      <a href="../index.html"><button>Exit</button></a>
+	    <a href="../index.html"><button><center>Exit</c></button></a>
     </main>
     <div id="bottom"></div>
   </section>
 
 </body>
 </html>
+
+	
