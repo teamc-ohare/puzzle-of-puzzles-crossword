@@ -54,7 +54,7 @@ body {
   max-width: 960px;
 }
 
-nav {
+nav li {
   font-family: 'Architects Daughter';
   font-size: 20px;
   background-color: rgb(198, 190, 170);
