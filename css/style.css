@@ -69,6 +69,10 @@ nav li {
   margin: 10px auto;
   text-align: center;
   padding: 20px 0px;
+
+  list-style: none;
+  left: -30px;
+  position: relative;
 }
 
 nav a {
