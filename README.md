@@ -4,6 +4,25 @@ Puzzle of Puzzles is a themed hybrid crossword puzzle, consisting of a logical a
 
 # Main Screen
 
+![Main[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Main%5B1%5D.PNG)
+![Main[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Main%5B2%5D.PNG)
 
+# About
+
+![About[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/About%5B1%5D.PNG)
+![About[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/About%5B2%5D.PNG)
+
+# StartGame
+
+![StartGame[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/StartGame%5B1%5D.PNG)
+![StartGame[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/StartGame%5B2%5D.PNG)
+
+# Easy Difficulty
+
+Initial
+![Easy[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Easy%5B1%5D.PNG)
+
+With Validator Enabled
+![Easy[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Easy%5B2%5D.PNG)
 
 
