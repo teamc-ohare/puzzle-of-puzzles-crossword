@@ -112,7 +112,7 @@
 
 .crossword-board--highlight {
 	position: absolute;
-	z-index: 50;
+	z-index: 100;
 }
 .crossword-board__item-highlight {
 	background: $color-valid-item;
@@ -318,27 +318,27 @@
 	
 .crossword-board__item-highlight--down-1 {
 	grid-column: 2;
-	grid-row: 1/5;
+	grid-row: 1/6;
 }
 
 .crossword-board__item-highlight--down-2 {
 	grid-column: 3;
-	grid-row: 1/5;
+	grid-row: 1/6;
 }
 
 .crossword-board__item-highlight--down-3 {
 	grid-column: 4;
-	grid-row: 1/5
+	grid-row: 1/6
 }
 
 .crossword-board__item-highlight--down-4 {
 	grid-column: 1;
-	grid-row: 2/4;
+	grid-row: 2/6;
 }
 
 .crossword-board__item-highlight--down-5 {
 	grid-column: 5;
-	grid-row: 2/4;
+	grid-row: 2/6;
 }
 
 #item1-2:active ~ .crossword-clues .crossword-clues__list-item--down-1,
