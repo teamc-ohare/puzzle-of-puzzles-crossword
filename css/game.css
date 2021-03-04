@@ -46,6 +46,21 @@
   outline: 1px solid #000000;
 }
 
+.crossword-board--labels {
+	position: absolute;
+	z-index: 60;
+}
+.crossword-board__item-label {
+	position: relative;
+}
+.crossword-board__item-label-text {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	font-size: 14px;
+	line-height: 1;
+}
+
 /***********************************************************/
 /**                                                        */
 /***********************************************************/
