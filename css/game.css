@@ -112,7 +112,7 @@
 
 .crossword-board--highlight {
 	position: absolute;
-	z-index: 100;
+	z-index: 60;
 }
 .crossword-board__item-highlight {
 	background: $color-valid-item;
