@@ -107,37 +107,6 @@
 
 
 
-#checkvaliditems:checked ~ .crossword-board-container .crossword-board__item:valid 
-{
-  background: #9AFF67;
-}
-
-.crossword-clues {
-  position: absolute;
-  top: 0;
-  left: 500px;
-  width: 5000px;
-}
-
-.crossword-clues__list {
-  margin: 0 0 0 60px;
-  padding: 0;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.crossword-clues__list-title {
-  font-weight: bold;
-  padding: 4px;
-}
-
-.crossword-clues__list-item {
-  margin: 0;
-  padding: 4px;
-}
-.crossword-clues__list-item:before {
-  content: attr(data-number) ". ";
-}
 
 
 /*************************************************************************/
@@ -475,6 +444,39 @@
 /**END DOWN ANSWERS HIGHLIGHTING                                         */
 /*************************************************************************/
   
+
+#checkvaliditems:checked ~ .crossword-board-container .crossword-board__item:valid 
+{
+  background: #9AFF67;
+}
+	
+.crossword-clues {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 5000px;
+}
+	
+.crossword-clues__list {
+  margin: 0 0 0 60px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+	
+.crossword-clues__list-title {
+  font-weight: bold;
+  padding: 4px;
+}
+	
+.crossword-clues__list-item {
+  margin: 0;
+  padding: 4px;
+}
+		
+.crossword-clues__list-item:before {
+  content: attr(data-number) ". ";
+}
   
 
 .crossword-complete {
@@ -499,13 +501,12 @@
 #item5-2:valid ~ #item5-3:valid ~ #item5-4:valid ~
 
 
-  
-
 .crossword-complete 
 {
   opacity: 1;
 }
 
+	
 #checkvaliditems {
   background: #9AFF67;
   cursor: pointer;
@@ -514,6 +515,7 @@
   left: 37px;
 }
 
+	
 [for="checkvaliditems"] {
   padding: 0;
   margin: 0 0 0 60px;
@@ -521,4 +523,3 @@
   background: #9AFF67;
   cursor: pointer;
 }
-
