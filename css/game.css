@@ -1,11 +1,3 @@
-/****************************************************************/
-/**                                                             */
-/*https://www.sitepoint.com/how-built-pure-css-crossword-puzzle */
-/*https://codepen.io/adrianroworth/pen/OpeyZq                   */
-/**                                                             */
-/****************************************************************/
-
-
 .crossword-board-container {
   position: relative;
   background: #FFFFFF;
