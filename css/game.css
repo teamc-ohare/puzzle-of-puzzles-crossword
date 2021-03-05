@@ -39,7 +39,8 @@
 	}
 }
 
-.crossword-board__item:active, .crossword-board__item:focus {
+.crossword-board__item:active, 
+.crossword-board__item:focus {
   background: #FFFF74;
   border: 1px solid #000000;
   outline: 1px solid #000000;
@@ -142,45 +143,10 @@
   grid-row: 5/5;
 }
 
-.crossword-board--highlight {
-	position: absolute;
-	z-index: 60;
-}
-.crossword-board__item-highlight {
-	background: $color-valid-item;
-	display: grid;
-	opacity: 0;
-	transition: opacity 0.3s linear;
-}
-
 
 /*************************************************************************/
 /**BEGIN ACROSS ANSWERS HIGHLIGHTING                                     */
 /*************************************************************************/
-
-.crossword-board__item-highlight--across-1 {
-	grid-column: 2/5;
-}
-
-.crossword-board__item-highlight--across-4 {
-	grid-column: 1/5;
-	grid-row: 2;
-}
-
-.crossword-board__item-highlight--across-6 {
-	grid-column: 1/5;
-	grid-row: 3;
-}
-
-.crossword-board__item-highlight--across-7 {
-	grid-column: 1/5;
-	grid-row: 4;
-}
-
-.crossword-board__item-highlight--across-8 {
-	grid-column: 2/5;
-	grid-row: 5;
-}
 
 #item1-2:active ~ .crossword-clues .crossword-clues__list-item--across-1,
 #item1-2:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
@@ -348,31 +314,6 @@
 /**BEGIN DOWN ANSWERS HIGHLIGHTING                                       */
 /*************************************************************************/
 	
-.crossword-board__item-highlight--down-1 {
-	grid-column: 2;
-	grid-row: 1/3;
-}
-
-.crossword-board__item-highlight--down-2 {
-	grid-column: 3;
-	grid-row: 1/3;
-}
-
-.crossword-board__item-highlight--down-3 {
-	grid-column: 4;
-	grid-row: 1/3
-}
-
-.crossword-board__item-highlight--down-4 {
-	grid-column: 1;
-	grid-row: 2/5;
-}
-
-.crossword-board__item-highlight--down-5 {
-	grid-column: 5;
-	grid-row: 2/5;
-}
-
 #item1-2:active ~ .crossword-clues .crossword-clues__list-item--down-1,
 #item1-2:focus ~ .crossword-clues .crossword-clues__list-item--down-1,
 #item1-2:hover ~ .crossword-clues .crossword-clues__list-item--down-1 {
