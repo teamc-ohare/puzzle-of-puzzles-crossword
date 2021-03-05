@@ -74,19 +74,6 @@
   background: #9AFF67;
 }
 	
-.crossword-clues {
-  position: absolute;
-  top: 0;
-  left: 500px;
-  width: 5000px;
-}
-	
-.crossword-clues__list {
-  margin: 0 0 0 60px;
-  padding: 0;
-  display: inline-block;
-  vertical-align: top;
-}
 	
 .crossword-clues__list-title {
   font-weight: bold;
