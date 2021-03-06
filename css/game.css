@@ -165,7 +165,7 @@
 }
 
 /** Across List Validator--Across-1                                       */
-#item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~ .crossword-clues {
+#item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~ {
   background: #9AFF67;
 }
 /** END                                                                   */
@@ -198,7 +198,7 @@
 
 /** Across List Validator--Across-4                                      */
 #item2-1:valid ~ #item2-2:valid ~ #item2-3:valid ~ #item2-4:valid ~
-#item2-5:valid ~ .crossword-clues .crossword-clues__list-item--across-4 {
+#item2-5:valid ~ {
   background: #9AFF67;
 }
 /** END                                                                  */
@@ -226,7 +226,7 @@
 
 /** Across List Validator--Across-6                                      */
 #item3-1:valid ~ #item3-2:valid ~ #item3-3:valid ~ #item3-4:valid ~
-#item3-5:valid ~ .crossword-clues .crossword-clues__list-item--across-6 {
+#item3-5:valid ~ {
   background: #9AFF67;
 }
 /** END                                                                  */
@@ -258,7 +258,7 @@
 
 /** Across List Validator--Across-7                                      */
 #item4-1:valid ~ #item4-2:valid ~ #item4-3:valid ~ #item4-4:valid ~
-#item4-5:valid ~ .crossword-clues .crossword-clues__list-item--across-7 {
+#item4-5:valid ~ {
   background: #9AFF67;
 }
 /** END                                                                  */
@@ -279,8 +279,7 @@
 }
 
 /** Across List Validator--Across-8                                      */
-#item5-2:valid ~ #item5-3:valid ~ #item5-4:valid ~ .crossword-clues 
-.crossword-clues__list-item--across-8 {
+#item5-2:valid ~ #item5-3:valid ~ #item5-4:valid ~ {
   background: #9AFF67;
 }
 /** END                                                                  */
