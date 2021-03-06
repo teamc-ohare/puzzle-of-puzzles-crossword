@@ -151,19 +151,19 @@
 
 #item1-2:active ~ .crossword-clues .crossword-clues__list-item--across-1,
 #item1-2:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item1-2:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+{
   background: #FFFF74;
 }
 
 #item1-3:active ~ .crossword-clues .crossword-clues__list-item--across-1,
 #item1-3:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item1-3:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+{
   background: #FFFF74;
 }
 
 #item1-4:active ~ .crossword-clues .crossword-clues__list-item--across-1,
 #item1-4:focus ~ .crossword-clues .crossword-clues__list-item--across-1,
-#item1-4:hover ~ .crossword-clues .crossword-clues__list-item--across-1 {
+{
   background: #FFFF74;
 }
 
