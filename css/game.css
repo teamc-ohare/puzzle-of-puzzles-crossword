@@ -191,8 +191,7 @@
 }
 
 #item2-5:active ~ .crossword-clues .crossword-clues__list-item--across-4,
-#item2-5:focus ~ .crossword-clues .crossword-clues__list-item--across-4,
-#item2-5:hover ~ .crossword-clues .crossword-clues__list-item--across-4 {
+#item2-5:focus ~ .crossword-clues .crossword-clues__list-item--across-4, {
   background: #FFFF74;
 }
 
