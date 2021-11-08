@@ -53,12 +53,12 @@ Follow the instructions here:
 7. Open the folder puzzle-of-puzzles-crossword-main
     - The contents of the folder should be the following
         - css folder
-	- html folder
-	- ProjectPackage folder
-	- screenshots folder
-	- index.html
-	- LICENSE
-	- README.md
+        - html folder
+        - ProjectPackage folder
+        - screenshots folder
+        - index.html
+        - LICENSE
+        - README.md
 	
     - NOTE: The folders contain the backend and frontend development of the game to date
     - NOTE: The html.index file is a prototype frontend interface of the game
