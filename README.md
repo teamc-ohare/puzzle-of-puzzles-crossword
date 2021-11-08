@@ -33,6 +33,6 @@ Follow the instructions here:
 
 1. Return to the top of the page > CLICK on the green button labeled CODE
 2. From the drop-down selection box > CLICK on the Download Zip option
-    -- This will open the Opening puzzle-of-puzzles-crossword-main.zip dialog-box
-    -- From the dialog box > Ensure the Save File option is selected > CLICK on OK
-    -- This will save the ZIP file to your Downloads folder
+    - This will open the Opening puzzle-of-puzzles-crossword-main.zip dialog-box
+    - From the dialog box > Ensure the Save File option is selected > CLICK on OK
+    - This will save the ZIP file to your Downloads folder
