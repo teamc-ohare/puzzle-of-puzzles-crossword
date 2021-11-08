@@ -60,12 +60,12 @@ Follow the instructions here:
         - LICENSE
         - README.md
 	
-    - NOTE: The folders contain the backend and frontend development of the game to date
-    - NOTE: The html.index file is a prototype frontend interface of the game
+    - NOTE: The FOLDERS contain the backend and frontend development of the game to date
+    - NOTE: The HTML.INDEX file is a prototype frontend interface of the game
     - NOTE: The LICENSE contains the terms of the software license
     - NOTE: the README.md is the markdown code that displays the content on the GitHUB site
 8. Launch the interface prototype game 
-    - Double-click on the file html.index file
+    - Double-click on the file HTML.INDEX
         - This will open a prototype web browser
 9. Interact with the proto-website
     - Click on all the buttons
