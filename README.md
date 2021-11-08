@@ -54,12 +54,12 @@ Follow the instructions here:
     - Return to your PROTOTYPE folder 
     - Right-click within the folder and select the option PASTE
 6. Extract the contents of the ZIP file
-    - Right-click on puzzle-of-puzzles-crossword-main.zip and select Extract All
+    - Right-click on puzzle-of-puzzles-crossword-main.zip and select EXTRACT ALL
     - This will open the Extract Compressed (Zipped) Folders dialog-box
         - Do not change the directory or filename
-        - Uncheck the box Show extracted files when complete
-        - Click the Extract button
-        	- This will extract a prototype of the game contents under development
+        - UNCHECK the box Show extracted files when complete
+        - Click the EXTRACT button
+        	- This will extract a prototype of the game contents under development to date
 7. Open the folder puzzle-of-puzzles-crossword-main
     - The contents of the folder should contain the following:
         - css folder
