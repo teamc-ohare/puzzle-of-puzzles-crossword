@@ -70,7 +70,8 @@ Follow the instructions here:
 9. Interact with the proto-website
     - Click on all the buttons
     - Read the About descriptions 
-    - Try and solve the puzzle, and have fun
+    - Read the Tips for Gameplay descriptions
+    - Try and solve the puzzles, and have fun
 10. If you would like to provide feedback on issues you've found with your interaction
       - Submit feedback to dev.kiddjsh@gmail.com, OR
       - Through GitHUB
