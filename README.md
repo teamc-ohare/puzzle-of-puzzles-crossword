@@ -31,27 +31,37 @@ Interested in playing the proto-type version, and give feedback towards the deve
 
 Follow the instructions here:
 
-1. Return to the top of the page > CLICK on the green button labeled CODE
-2. From the drop-down selection box > CLICK on the Download Zip option
+1. CLICK on the green button labeled CODE
+    - Return to the top of the page
+    - Click on the green button labeled CODE
+2. CLICK on the DOWNLOAD ZIP option
+    - From the drop-down selection box select the option DOWNLOAD ZIP
     - This will open the Opening puzzle-of-puzzles-crossword-main.zip dialog-box
-    - From the dialog box > Ensure the Save File option is selected > CLICK on OK
-    - This will save the ZIP file to your Downloads folder
-3. Next, Select the Windows icon from your task bar > Select Documents
-4. Create a New Folder named Prototype within your Documents folder 
-    - Click on the New Folder button from Documents
-    - Name the folder Prototype
-5. Move the ZIP file puzzle-of-puzzles-crossword-main.zip from Downloads to Documents > Prototype
-    - Click on Downloads under Quick Access
-    - Right-click on the ZIP file puzzle-of-puzzles-crossword-main.zip > Select the option CUT
-    - Return to your Prototype folder > Right-click within the folder and select the option PASTE
+    - Ensure the SAVE FILE option is selected
+    - CLICK on OK
+    - This will save the ZIP file to your DOWNLOADS folder
+3. Go to your DOCUMENTS folder
+    - Select the WINDOWS icon from your task bar
+    - Click on the DOCUMENTS folder icon button 
+    	- The Documents icon folder is located four up from the Power Button icon
+4. Create a NEW FOLDER named PROTOTYPE 
+        - Click on the NEW FOLDER button from DOCUMENTS
+        - Name the folder PROTOTYPE
+5. Move the ZIP file puzzle-of-puzzles-crossword-main.zip to the PROTOTYPE folder
+    - Click on DOWNLOADS under Quick Access
+    - Right-click on the ZIP file puzzle-of-puzzles-crossword-main.zip  
+    - Select the option CUT
+    - Return to your PROTOTYPE folder 
+    - Right-click within the folder and select the option PASTE
 6. Extract the contents of the ZIP file
     - Right-click on puzzle-of-puzzles-crossword-main.zip and select Extract All
     - This will open the Extract Compressed (Zipped) Folders dialog-box
         - Do not change the directory or filename
+        - Uncheck the box Show extracted files when complete
         - Click the Extract button
-        - This will extract a prototype of the game contents under development
+        	- This will extract a prototype of the game contents under development
 7. Open the folder puzzle-of-puzzles-crossword-main
-    - The contents of the folder should be the following
+    - The contents of the folder should contain the following:
         - css folder
         - html folder
         - ProjectPackage folder
@@ -72,7 +82,7 @@ Follow the instructions here:
     - Read the About descriptions 
     - Read the Tips for Gameplay descriptions
     - Try and solve the puzzles, and have fun
-10. If you would like to provide feedback on issues you've found with your interaction
+10. Would you like to provide feedback on issues you've found with your interaction </?>
       - Submit feedback to dev.kiddjsh@gmail.com, OR
       - Through GitHUB
           - CLICK on ISSUES at the top of the page
