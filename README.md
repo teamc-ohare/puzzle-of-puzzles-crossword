@@ -76,5 +76,5 @@ Follow the instructions here:
       - Through GitHUB
           - CLICK on ISSUES at the top of the page
           - CLICK on the green button NEW ISSUE
-          - Enter a TITLE & Enter a DESCRIPTION
+          - Enter a TITLE & DESCRIPTION (include your name/handle if you'd like to be mentioned in bug fixes)
           - CLICK on SUBMIT NEW ISSUE   
