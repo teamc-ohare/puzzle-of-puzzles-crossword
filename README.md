@@ -45,8 +45,8 @@ Follow the instructions here:
     - Click on the DOCUMENTS folder icon button 
     	- The Documents icon folder is located four up from the Power Button icon
 4. Create a NEW FOLDER named PROTOTYPE 
-        - Click on the NEW FOLDER button from DOCUMENTS
-        - Name the folder PROTOTYPE
+    - Click on the NEW FOLDER button from DOCUMENTS
+    - Name the folder PROTOTYPE
 5. Move the ZIP file puzzle-of-puzzles-crossword-main.zip to the PROTOTYPE folder
     - Click on DOWNLOADS under Quick Access
     - Right-click on the ZIP file puzzle-of-puzzles-crossword-main.zip  
