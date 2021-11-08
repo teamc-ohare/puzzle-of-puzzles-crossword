@@ -36,3 +36,45 @@ Follow the instructions here:
     - This will open the Opening puzzle-of-puzzles-crossword-main.zip dialog-box
     - From the dialog box > Ensure the Save File option is selected > CLICK on OK
     - This will save the ZIP file to your Downloads folder
+3. Next, Select the Windows icon from your task bar > Select Documents
+4. Within your Documents folder > Create a New Folder > Name the folder Prototype 
+    - Click on the New Folder button
+    - Name the folder Prototype
+5. From Quick Access > Select Downloads > Move the ZIP file puzzle-of-puzzles-crossword-main.zip to Documents > Prototype
+    - Click on Downloads under Quick Access
+    - Right-click on the ZIP file puzzle-of-puzzles-crossword-main.zip > Select the option CUT
+    - Return to your Prototype folder > Right-click within the folder and select the option PASTE
+6. Extract the contents of the ZIP file
+    - Right-click on puzzle-of-puzzles-crossword-main.zip and select Extract All
+    - This will open the Extract Compressed (Zipped) Folders dialog-box
+        - Do not change the directory or filename
+        - Click the Extract button
+        - This will extract a prototype of the game contents under development
+7. Open the folder puzzle-of-puzzles-crossword-main
+    - The contents of the folder should be the following
+        - css folder
+	    - html folder
+	    - ProjectPackage folder
+	    - screenshots folder
+	    - index.html
+	    - LICENSE
+	    - README.md
+	
+    - NOTE: The folders contain the backend and frontend development of the game to date
+	- NOTE: The html.index file is a prototype frontend interface of the game
+	- NOTE: The LICENSE contains the terms of the software license
+	- NOTE: the README.md is the markdown code that displays the content on the GitHUB site
+8. Launch the interface prototype game 
+    - Double-click on the file html.index file
+        - This will open a prototype web browser
+9. Interact with the proto-website
+    - Click on all the buttons
+    - Read the About descriptions 
+    - Try and solve the puzzle, and have fun
+10. If you would like to provide feedback on issues you've found with your interaction
+      - Submit feedback to dev.kiddjsh@gmail.com, OR
+      - Through GitHUB
+          - CLICK on ISSUES at the top of the page
+          - CLICK on the green button NEW ISSUE
+          - Enter a TITLE & Enter a DESCRIPTION
+          - CLICK on SUBMIT NEW ISSUE   
