@@ -1,6 +1,26 @@
-# Puzzle of Puzzles [prototype]
+# O'Hare Crossword Puzzle [prototype]
 
-Puzzle of Puzzles is a themed hybrid crossword puzzle, consisting of a logical and hidden object type puzzle game, containing a number of long and short entries within an auto-populated grid. Upon entering the chosen difficulty level an auto-populated grid will appear, ranging from a 6x6 to 15x5 grid, depending upon the game difficulty, along with a clue list for that specific puzzle. The puzzle game is randomly selected out of the games for that specified difficulty level. Based upon the Across list and Down list, you will attempt to solve the word puzzle. Each letter entered, is checked against the correct answer. When a tile is entered, the validator will be triggered, turning the tile yellow. If the correct letter is given, the tile will turn green. If the letter is incorrect, the tile will remain white.
+The O'Hare Crossword Puzzle game is of a game development proposal in partnership with the Chicago Department of Aviation, DeVry University’s IT-gaming students of the September 2020 Team C, O'Hare Intern Project. 
+
+The game development proposal consists of four games proposed for the airports kiosk gaming machine. The students of Team C included Joshua Kidder (Team Lead), Brian Schaeflein, Kellen Naughton, Courtney Maurer, William Jones, Joshua Corral, and Aucoin Geter. The game proposals include two kid games and two adult games:
+    - Kids (ages range 4 -10):  Word Scramble & Algorithm Take Off
+    - Adults (ages range 10+):  Crossword Puzzle & Sudoku
+
+A functioning prototype of O'Hare Crossword Puzzle was completed.
+
+The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting of a logical and hidden object type puzzle, containing a number of long and short entries within an auto-populated grid. Upon entering the chosen difficulty level an auto-populated grid will appear, displaying a 15x15 grid, along with a clue list for that specific puzzle. The puzzle game is randomly selected out of the games for that specified difficulty level. Based upon the Across list and Down list, you will attempt to solve the word puzzle. Each letter entered, is checked against the correct answer. When a tile is entered, the validator will be triggered, turning the tile yellow. If the correct letter is given, the tile will turn green. If the letter is incorrect, the tile will remain white.
+# Updates
+
+- The full game design is still under development by Joshua Kidder. 
+  - Phase 1: Complete Easy & Intermediate Difficulty Puzzles, introduce randomization
+  - Phase 2: Complete Normal & Advanced Difficulty Puzzles, add randomization
+  - Phase 3:
+  - Phase 4:
+  
+- The details of the full game design can be found in the ProjectPackage and the included game proposal document. The game proposal document also includes all four proposed games, and by which team members proposed the game from Team C, with further details about their proposed games.
+
+- The prototype version of the O'Hare Crossword Puzzle game is currently being launched on a sub-domain I have created in namecheap for the purpose of displaying the game and updates I'm making through my github.io portfolio project. 
+
 
 # Main Screen
 
