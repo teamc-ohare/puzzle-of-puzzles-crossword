@@ -44,10 +44,10 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 # Easy Difficulty
 
 Initial
-![Easy[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Easy%5B1%5D.PNG)
+![updateEasy[1]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B1%5D.PNG)
 
 With Validator Enabled
-![Easy[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Easy%5B2%5D.PNG)
+![updateEasy[2]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B2%5D.PNG)
 
 # GAME PLAY INSTRUCTIONS [prototype]
 
