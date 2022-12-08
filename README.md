@@ -123,3 +123,4 @@ Version      | Date          | Author        | Change Description |
 1.0          | SEPT2020      | Joshua Kidder | Added initial index.html, game.html, style.css, game.css 
 1.0          | SEPT2020      | Joshua Kidder | Updated index.html, game.html, style.css, game.css to reflect a 5x5 grid design, updated grid validations, added across and down clue lists
 1.0          | OCT2020       | Joshua Kidder | Added initial about.html, difficulty.html, featured.html, about.css, featured.css, instructions.css, and ProjectPackage 
+1.0          | OCT2020       | Joshua Kidder | Updated game.html and game.css correcting an issue with the numbering of grid panels for the across and down clue lists
