@@ -2,7 +2,10 @@
 
 The O'Hare Crossword Puzzle game is of a game development proposal in partnership with the Chicago Department of Aviation, DeVry University’s IT-gaming students of the September 2020 Team C, O'Hare Intern Project. 
 
-The game development proposal consists of four games proposed for the airports kiosk gaming machine. The students of Team C included Joshua Kidder (Team Lead), Brian Schaeflein, Kellen Naughton, Courtney Maurer, William Jones, Joshua Corral, and Aucoin Geter. The game proposals include two kid games and two adult games:
+More details on the project, Fly with Butch O'Hare, can be found here:
+- https://www.flychicago.com/FlywithButchOHare/program.html
+
+The game development proposal consists of four games proposed for the airports kiosk gaming machine, located at Terminal 2. The students of Team C included Joshua Kidder (Team Lead), Brian Schaeflein, Kellen Naughton, Courtney Maurer, William Jones, Joshua Corral, and Aucoin Geter. The game proposals include two kid games and two adult games:
     - Kids (ages range 4 -10):  Word Scramble & Algorithm Take Off
     - Adults (ages range 10+):  Crossword Puzzle & Sudoku
 
