@@ -107,7 +107,7 @@ Follow the instructions here:
     - Read the Tips for Gameplay descriptions
     - Try and solve the puzzles, and have fun
 10. Would you like to provide feedback on issues you've found with your interaction </?>
-      - Submit feedback to dev.kiddjsh@gmail.com, OR
+      - Submit feedback to development@kiddjsh.xyz, OR
       - Through GitHUB
           - CLICK on ISSUES at the top of the page
           - CLICK on the green button NEW ISSUE
