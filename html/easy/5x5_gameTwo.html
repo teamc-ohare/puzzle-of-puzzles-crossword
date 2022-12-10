@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../../css/easy/5x5_gameTwo.css">
+</head>
+<body>
+<input type="checkbox" name="checkvaliditems" id="checkvaliditems" />
+<label for="checkvaliditems">Check for valid squares</label>
+
+<div class="crossword-board-container">
+
+	<div class="crossword-board">
+		<!-- ROW 1 -->
+
+		<input id="item1-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item1-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item1-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item1-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item1-5"></span>
+		<!-- ROW 1 -->
+
+		<!-- ROW 2 -->
+		<input id="item2-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item2-1"></span>		
+		<input id="item2-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item2-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item2-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<!-- ROW 2 -->
+
+		<!-- ROW 3 -->
+		<input id="item3-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item3-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item3-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item3-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item3-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<!-- ROW 3 -->
+
+		<!-- ROW 4 -->
+		<input id="item4-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item4-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item4-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item4-4"></span>
+		<input id="item4-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<!-- ROW 4 -->
+
+		<!-- ROW 5 -->
+		<span class="crossword-board__item--blank" id="item5-1"></span>
+		<input id="item5-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item5-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<input id="item5-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<!-- ROW 5 -->
+
+
+		<div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
+			<span id="across-1" class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
+			<span id="across-4" class="crossword-board__item-highlight crossword-board__item-highlight--across-2"></span>
+
+		</div>
+
+		<div class="crossword-board crossword-board--highlight crossword-board--highlight-down">
+
+		</div>
+
+		<div class="crossword-board crossword-board--labels">
+			<span id="label-1" class="crossword-board__item-label crossword-board__item-label--1"><span class="crossword-board__item-label-text">1</span></span>
+			<span id="label-2" class="crossword-board__item-label crossword-board__item-label--2"><span class="crossword-board__item-label-text">2</span></span>
+
+		</div>
+
+		<div class="crossword-clues">
+
+			<dl class="crossword-clues__list crossword-clues__list--across">
+				<dt class="crossword-clues__list-title">Across</dt>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">Clue One (3)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-2" data-number="4">Clue Two (5)</dd>
+
+			</dl>
+
+			<dl class="crossword-clues__list crossword-clues__list--down">
+				<dt class="crossword-clues__list-title">Down</dt>
+
+			</dl>
+
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
