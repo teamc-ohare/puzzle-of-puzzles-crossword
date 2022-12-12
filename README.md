@@ -124,3 +124,10 @@ Version      | Date          | Author        | Change Description |
 1.0          | SEPT2020      | Joshua Kidder | Updated index.html, game.html, style.css, game.css to reflect a 5x5 grid design, updated grid validations, added across and down clue lists
 1.0          | OCT2020       | Joshua Kidder | Added initial about.html, difficulty.html, featured.html, about.css, featured.css, instructions.css, and ProjectPackage 
 1.0          | OCT2020       | Joshua Kidder | Updated game.html and game.css correcting an issue with the numbering of grid panels for the across and down clue lists
+1.1          | 03DEC2020       | Joshua Kidder | Created 5x5 html and css gameboard templates
+1.1          | 05DEC2020       | Joshua Kidder | Created 6x6 html and css gameboard templates
+1.1          | 07DEC2020       | Joshua Kidder | Created 7x7 html and css gameboard templates
+1.1          | 09DEC2020       | Joshua Kidder | Created 8x8 html and css gameboard templates
+1.1          | 10DEC2020       | Joshua Kidder | Created game.js 
+1.1          | 11DEC2020       | Joshua Kidder | Created gamepage.html 
+1.1          | 12DEC2020       | Joshua Kidder | Created gamepage randomization and generation of easy mode gameboards introducing javascript, updated difficulty.html button anchor, created a secondary easy folders for html and css moving the directory of the gameboard templates 
