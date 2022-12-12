@@ -12,7 +12,7 @@
 <!--BEGIN JAVASCRIPT GAMEBOARD RANDOMIZATION -->
 <script type="text/javascript">
 
-    // Create an array of links to choose from 
+    // Create an array of gameboards to choose from 
     var game = new Array();
 
     game[1] = "./easy/5x5_gameOne.html";
@@ -23,7 +23,7 @@
 
     // Function to call gameboard
     function openLink() {
-        // Choose a random link from the array
+        // Choose a random game from the array
         var i = Math.floor(Math.random() * game.length);
         // Direct browser to target
         parent.location = game[i];
