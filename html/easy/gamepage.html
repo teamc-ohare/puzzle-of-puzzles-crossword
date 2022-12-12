@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>O'Hare Crossword Puzzle | Easy</title>
+    <link rel="stylesheet" href="../../../css/easy/5x5_gameOne.css">
+    <link rel="stylesheet" href="../../../css/easy/5x5_gameTwo.css">
+    <link rel="stylesheet" href="../../../css/easy/6x6_gameThree.css">
+    <link rel="stylesheet" href="../../../css/easy/7x7_gameFour.css">
+    <link rel="stylesheet" href="../../../css/easy/8x8_gameFive.css">
+
+<!--BEGIN JAVASCRIPT GAMEBOARD RANDOMIZATION -->
+<script type="text/javascript">
+
+    // Create an array of links to choose from 
+    var game = new Array();
+
+    game[1] = "./easy/5x5_gameOne.html";
+    game[2] = "./easy/5x5_gameTwo.html";
+    game[3] = "./easy/6x6_gameThree.html";
+    game[4] = "./easy/7x7_gameFour.html";
+    game[5] = "./easy/8x8_gameFive.html";
+
+    // Function to call gameboard
+    function openLink() {
+        // Choose a random link from the array
+        var i = Math.floor(Math.random() * game.length);
+        // Direct browser to target
+        parent.location = game[i];
+        return false;
+    }
+
+</script>
+</head>
+<body onload="openLink();"> 
+    <div class="crossword-board-container">
+        <div class="crossword-board"></div>
+
+    </div>
+</body>
+</html>
