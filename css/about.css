@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 section {
   min-width: 600px;
 }
@@ -27,7 +29,8 @@ p {
 }
 
 div h2 {
-  font-family: 'Architects Daughter';
+  font-family: 'Gruppo';
+  color: #6D6466;
   margin-right: 15px;
   float: left;
 }
@@ -39,7 +42,9 @@ div a {
 }
 
 a:hover li:hover {
-  color: navy;
-  border: 3px solid navy;
+  /*color: navy;*/
+  color: #C2F261;
+  /*border: 3px solid navy;*/
+  border: 3px solid #C2F261;
   transition: .5s;
 }

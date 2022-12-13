@@ -205,6 +205,7 @@
 #item3-1:active ~ .crossword-clues .crossword-clues__list-item--across-6,
 #item3-1:focus ~ .crossword-clues .crossword-clues__list-item--across-6, {
   background: #FFFF74;
+}
 
 #item3-2:active ~ .crossword-clues .crossword-clues__list-item--across-6,
 #item3-2:focus ~ .crossword-clues .crossword-clues__list-item--across-6, {
@@ -214,14 +215,17 @@
 #item3-3:active ~ .crossword-clues .crossword-clues__list-item--across-6,
 #item3-3:focus ~ .crossword-clues .crossword-clues__list-item--across-6, {
   background: #FFFF74;
+}
   
 #item3-4:active ~ .crossword-clues .crossword-clues__list-item--across-6,
 #item3-4:focus ~ .crossword-clues .crossword-clues__list-item--across-6, {
   background: #FFFF74;
-  
+}
+
 #item3-5:active ~ .crossword-clues .crossword-clues__list-item--across-6,
 #item3-5:focus ~ .crossword-clues .crossword-clues__list-item--across-6, {
   background: #FFFF74;
+}
 
 /** Across List Validator--Across-6                                      */
 #item3-1:valid ~ #item3-2:valid ~ #item3-3:valid ~ #item3-4:valid ~

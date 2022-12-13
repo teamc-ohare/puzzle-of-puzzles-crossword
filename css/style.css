@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 /* ~~~~~~~~~~~~~~~~ */
 /* headers */
 /* ~~~~~~~~~~~~~~~~ */
 
 header {
+  font-family: 'Gruppo';
+  color: #6D6466;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
 h1 {
-  font-family: 'Architects Daughter';
+  font-family: 'Gruppo';
   font-size: 60px;
+  color: #6D6466;
   text-align: center;
   margin-bottom: 0px;
  
 }
 
 h2 {
+  font-family: 'Gruppo';
   font-size: 20px;
+  color: #6D6466;
 }
 
 /* ~~~~~~~~~~~~~~~~ */
@@ -27,13 +32,17 @@ h2 {
 /* ~~~~~~~~~~~~~~~~ */
 
 body {
-  background-color: rgb(151, 192, 250);
-  color: rgb(225, 246, 255);
-  font-family: 'Architects Daughter';
+  background-color: #F8F4E3;
+  /*background-color: rgb(151, 192, 250);*/
+  /*color: rgb(225, 246, 255);*/
+  font-family: 'Gruppo';
+  color: #6D6466;
   margin: 0 auto;
 }
 
 section {
+  font-family: 'Gruppo';
+  color: #6D6466;
   margin: 0 auto;
 }
 
@@ -47,17 +56,28 @@ nav {
 }
 
 main {
+  font-family: 'Gruppo';
+  color: #6D6466;
   margin-left: 165px;
 }
 
+main h2 {
+  font-family: 'Gruppo';
+  color: #6D6466;
+}
+
 body {
+  font-family: 'Gruppo';
+  color: #6D6466;
   width: 80%;
   min-width: 500px;
   max-width: 960px;
 }
 
 nav li {
-  font-family: 'Architects Daughter';
+  /*font-family: 'Architects Daughter';*/
+  font-family: 'Gruppo';
+  color: #6D6466;
   font-size: 20px;
   background-color: rgb(198, 190, 170);
   color: rgb(225, 246, 255);
@@ -80,7 +100,9 @@ nav a {
 }
 
 .selectedPage {
+  font-family: 'Gruppo';
+  color: #6D6466;
   border-color: rgb(255, 246, 255);
   color: rgb(225, 246, 255);
-  background-color: rgb(151, 192, 250);
+  background-color: #F8F4E3;
 }

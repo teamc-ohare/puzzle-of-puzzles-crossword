@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 /* ~~~~~~~~~~~~~~~~ */
 /* main content */
 /* ~~~~~~~~~~~~~~~~ */
@@ -25,9 +27,11 @@ main li {
 }
   
 main h2 {
-  font-size: 25px;
+  font-family: 'Gruppo';
+  color: #6D6466;
+  font-size: 20px;
   margin: 8px 8px 25px 8px;
-  font-family: 'Architects Daughter';
+  /*font-family: 'Architects Daughter';*/
 }
   
 button {
@@ -37,10 +41,12 @@ button {
   font-size: 25px;
   display: block;
 
-  font-family: 'Architects Daughter';
+  /*font-family: 'Architects Daughter';*/
+  font-family: 'Gruppo';
   font-size: 20px;
   background-color: rgb(198, 190, 170);
-  color: rgb(225, 246, 255);
+  /*color: rgb(225, 246, 255);*/
+  color: #6D6466;
   border: 3px solid rgb(225, 246, 255);
   border-radius: 5px;
 }
@@ -51,8 +57,10 @@ a {
 }
 
 a:hover li:hover, button:hover{
-  color: rgb(110,110,204);
-  border: 3px solid rgb(110,110,204);
+  /*color: rgb(110,110,204);*/
+  color: #C2F261;
+  /*border: 3px solid rgb(110,110,204);*/
+  border: 3px solid #C2F261;
   transition: .5s;
 }
 
