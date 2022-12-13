@@ -16,16 +16,16 @@
 	<div class="crossword-board">
 		<!-- ROW 1 -->
 		<span class="crossword-board__item--blank" id="item1-1"></span>
-		<input id="item1-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item1-2"></span>
 		<input id="item1-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[yY]{1}$" required="required" value="" />
-		<input id="item1-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item1-4"></span>
 		<input id="item1-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />		
         <span class="crossword-board__item--blank" id="item1-6"></span>
 		<!-- ROW 1 -->
 
 		<!-- ROW 2 -->
 		<input id="item2-1" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
-		<input id="item2-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item2-2"></span>
 		<input id="item2-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[yY]{1}$" required="required" value="" />
 		<input id="item2-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />	
 		<input id="item2-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
@@ -55,25 +55,23 @@
 		<input id="item5-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
 		<input id="item5-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
 		<input id="item5-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[yY]{1}$" required="required" value="" />
-		<input id="item5-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item5-5"></span>
 		<input id="item5-6" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />		
         <!-- ROW 5 -->
 
 		<!-- ROW 6 -->
 		<span class="crossword-board__item--blank" id="item6-1"></span>
 		<input id="item6-2" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />
-		<input id="item6-3" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[xX]{1}$" required="required" value="" />
+		<span class="crossword-board__item--blank" id="item6-3"></span>
 		<input id="item6-4" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[yY]{1}$" required="required" value="" />
- 		<input id="item6-5" class="crossword-board__item" type="text" minlength="1" maxlength="1" pattern="^[zZ]{1}$" required="required" value="" />   	
+ 		<span class="crossword-board__item--blank" id="item6-5"></span>
         <span class="crossword-board__item--blank" id="item6-6"></span>
 		<!-- ROW 6 -->
 
 
 		<div class="crossword-board crossword-board--highlight crossword-board--highlight--across">
-			<span id="across-1" class="crossword-board__item-highlight crossword-board__item-highlight--across-1"></span>
-			<span id="across-5" class="crossword-board__item-highlight crossword-board__item-highlight--across-5"></span>
+			<span id="across-4" class="crossword-board__item-highlight crossword-board__item-highlight--across-4"></span>
 			<span id="across-7" class="crossword-board__item-highlight crossword-board__item-highlight--across-7"></span>
-            <span id="across-8" class="crossword-board__item-highlight crossword-board__item-highlight--across-8"></span>
             <span id="across-9" class="crossword-board__item-highlight crossword-board__item-highlight--across-9"></span>
             <span id="across-10" class="crossword-board__item-highlight crossword-board__item-highlight--across-10"></span>
 		</div>
@@ -82,9 +80,9 @@
             <span id="down-1" class="crossword-board__item-highlight crossword-board__item-highlight--down-1"></span>
 			<span id="down-2" class="crossword-board__item-highlight crossword-board__item-highlight--down-2"></span>
 			<span id="down-3" class="crossword-board__item-highlight crossword-board__item-highlight--down-3"></span>
-			<span id="down-4" class="crossword-board__item-highlight crossword-board__item-highlight--down-4"></span>
             <span id="down-5" class="crossword-board__item-highlight crossword-board__item-highlight--down-5"></span>
             <span id="down-6" class="crossword-board__item-highlight crossword-board__item-highlight--down-6"></span>
+			<span id="down-8" class="crossword-board__item-highlight crossword-board__item-highlight--down-8"></span>
 		</div>
 
 		<div class="crossword-board crossword-board--labels">
@@ -104,22 +102,20 @@
 
 			<dl class="crossword-clues__list crossword-clues__list--across">
 				<dt class="crossword-clues__list-title">Across</dt>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-1" data-number="1">Clue One (4)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-5" data-number="5">Clue Two (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-7" data-number="7">Clue Three (5)</dd>
-                <dd class="crossword-clues__list-item crossword-clues__list-item--across-8" data-number="8">Clue Four (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-9" data-number="9">Clue Five (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--across-10" data-number="10">Clue Six (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-4" data-number="4">Clue One (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-7" data-number="7">Clue Three (6)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-9" data-number="9">Clue Five (6)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--across-10" data-number="10">Clue Six (6)</dd>
 			</dl>
 
 			<dl class="crossword-clues__list crossword-clues__list--down">
 				<dt class="crossword-clues__list-title">Down</dt>
 				<dd class="crossword-clues__list-item crossword-clues__list-item--down-1" data-number="1">Clue One (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-2" data-number="2">Clue Two (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-3" data-number="3">Clue Three (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-4" data-number="4">Clue Four (5)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-5" data-number="5">Clue Five (4)</dd>
-				<dd class="crossword-clues__list-item crossword-clues__list-item--down-6" data-number="6">Clue Six (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-2" data-number="2">Clue Two (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-3" data-number="3">Clue Three (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-4" data-number="5">Clue Four (5)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-5" data-number="6">Clue Five (4)</dd>
+				<dd class="crossword-clues__list-item crossword-clues__list-item--down-6" data-number="8">Clue Six (4)</dd>
 			</dl>
 
 		</div>
