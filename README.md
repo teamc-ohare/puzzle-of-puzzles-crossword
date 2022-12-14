@@ -124,12 +124,12 @@ Version      | Date          | Author        | Change Description |
 1.0          | SEPT2020      | Joshua Kidder | Updated index.html, game.html, style.css, game.css to reflect a 5x5 grid design, updated grid validations, added across and down clue lists
 1.0          | OCT2020       | Joshua Kidder | Added initial about.html, difficulty.html, featured.html, about.css, featured.css, instructions.css, and ProjectPackage 
 1.0          | OCT2020       | Joshua Kidder | Updated game.html and game.css correcting an issue with the numbering of grid panels for the across and down clue lists
-1.1          | 03DEC2020       | Joshua Kidder | Created 5x5 html and css gameboard templates
-1.1          | 05DEC2020       | Joshua Kidder | Created 6x6 html and css gameboard templates
-1.1          | 07DEC2020       | Joshua Kidder | Created 7x7 html and css gameboard templates
-1.1          | 09DEC2020       | Joshua Kidder | Created 8x8 html and css gameboard templates
-1.1          | 10DEC2020       | Joshua Kidder | Created game.js 
-1.1          | 11DEC2020       | Joshua Kidder | Created gamepage.html 
-1.1          | 12DEC2020       | Joshua Kidder | Created gamepage randomization and generation of easy mode gameboards introducing javascript, updated difficulty.html button anchor, created a secondary easy folders for html and css moving the directory of the gameboard templates
-1.1          | 12DEC2020       | Joshua Kidder | Updated the main theme colors to cosmic latte and inchworm, and the font style to gruppo, updated the veriabge in about, how to play, and start game 
-1.1          | 13DEC2020       | Joshua Kidder | Updated all 5x5, 6x6, 7x7, and 8x8 gameboard designs with new symmetrical layouts, across and down lists, and corresponding grid number labelings 
+1.1          | 03DEC2022       | Joshua Kidder | Created 5x5 html and css gameboard templates
+1.1          | 05DEC2022       | Joshua Kidder | Created 6x6 html and css gameboard templates
+1.1          | 07DEC2022       | Joshua Kidder | Created 7x7 html and css gameboard templates
+1.1          | 09DEC2022       | Joshua Kidder | Created 8x8 html and css gameboard templates
+1.1          | 10DEC2022       | Joshua Kidder | Created game.js 
+1.1          | 11DEC2022       | Joshua Kidder | Created gamepage.html 
+1.1          | 12DEC2022       | Joshua Kidder | Created gamepage randomization and generation of easy mode gameboards introducing javascript, updated difficulty.html button anchor, created a secondary easy folders for html and css moving the directory of the gameboard templates
+1.1          | 12DEC2022       | Joshua Kidder | Updated the main theme colors to cosmic latte and inchworm, and the font style to gruppo, updated the veriabge in about, how to play, and start game 
+1.1          | 13DEC2022       | Joshua Kidder | Updated all 5x5, 6x6, 7x7, and 8x8 gameboard designs with new symmetrical layouts, across and down lists, and corresponding grid number labelings 
