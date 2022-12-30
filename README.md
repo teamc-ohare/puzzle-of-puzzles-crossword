@@ -28,18 +28,18 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 
 # Main Screen
 
-![Main[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Main%5B1%5D.PNG)
-![Main[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/Main%5B2%5D.PNG)
+![Main[1]]()
+![Main[2]]()
 
 # About
 
-![About[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/About%5B1%5D.PNG)
-![About[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/About%5B2%5D.PNG)
+![About[1]]()
+![About[2]]()
 
 # StartGame
 
-![StartGame[1]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/StartGame%5B1%5D.PNG)
-![StartGame[2]](https://raw.githubusercontent.com/teamc-ohare/puzzle-of-puzzles-crossword/main/screenshots/StartGame%5B2%5D.PNG)
+![StartGame[1]]()
+![StartGame[2]]()
 
 # Easy Difficulty
 
