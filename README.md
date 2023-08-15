@@ -28,7 +28,7 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 
 # Home Screen
 
-![Home]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crosswordHome.PNG)
+![Home](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crosswordHome.PNG)
 
 # About
 
