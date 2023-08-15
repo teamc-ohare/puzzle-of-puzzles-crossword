@@ -40,13 +40,31 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 ![StartGame[1]]()
 ![StartGame[2]]()
 
-# Easy Difficulty
+# 5 Randomized Easy Level Boards 
 
-Initial
+Initial Prototype
 ![updateEasy[1]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B1%5D.PNG)
 
 With Validator Enabled
 ![updateEasy[2]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B2%5D.PNG)
+
+5x5 Game Board 1
+![5x5G1](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword5x5G1.PNG)
+
+5x5 Game Board 2
+![5x5G2](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword5x5G2.PNG)
+
+6x6 Game Board
+![6x6GB](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword6x6.PNG)
+
+7x7 Game Board
+![7x7GB](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword7x7.PNG)
+
+8x8 Game Board
+![8x8TOP](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword8x8%5B1%5D.PNG)
+![8x8BOT](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword8x8%5B2%5D.PNG)
+
+
 
 # GAME PLAY INSTRUCTIONS [prototype]
 
