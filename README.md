@@ -43,10 +43,10 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 # 5 Randomized Easy Level Boards 
 
 Initial Prototype
-![updateEasy[1]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B1%5D.PNG)
+![updateEasy[1]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/old/updateEasy%5B1%5D.PNG)
 
 With Validator Enabled
-![updateEasy[2]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/updateEasy%5B2%5D.PNG)
+![updateEasy[2]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/old/updateEasy%5B2%5D.PNG)
 
 5x5 Game Board 1
 ![5x5G1](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crossword5x5G1.PNG)
