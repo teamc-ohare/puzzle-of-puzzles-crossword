@@ -26,10 +26,9 @@ The O'Hare Crossword Puzzle game is a themed hybrid crossword puzzle, consisting
 - The prototype version of the O'Hare Crossword Puzzle game is currently being launched on a sub-domain I have created in namecheap for the purpose of displaying the game and updates I'm making through my github.io portfolio project. 
 
 
-# Main Screen
+# Home Screen
 
-![Main[1]]()
-![Main[2]]()
+![Home]](https://github.com/teamc-ohare/puzzle-of-puzzles-crossword/blob/main/screenshots/new/crosswordHome.PNG)
 
 # About
 
